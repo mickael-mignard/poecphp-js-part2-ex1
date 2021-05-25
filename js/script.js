@@ -1,8 +1,9 @@
+// Get image element
+let image = document.getElementById("image1");
 
-var image = document.getElementById("image1");
-
- image.addEventListener("mouseover", function(){
-    image.setAttribute("src", "images/image1_2.jpg");   
- })
+// Add an event listener on mouseover to change the picture
+image.addEventListener("mouseover", function () {
+   image.setAttribute("src", "images/image1_2.jpg");
+})
 
 
